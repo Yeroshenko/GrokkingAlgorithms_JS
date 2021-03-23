@@ -1,3 +1,10 @@
+/**
+ * Represents a book.
+ * @param {array<number>} list - sorted array
+ * @param {number} searchItem - array element
+*  @returns {number} - searchItem index or -1
+ */
+
 const binarySearch = (list, searchItem) => {
   let low = 0
   let high = list.length - 1
