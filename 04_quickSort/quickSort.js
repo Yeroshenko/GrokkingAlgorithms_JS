@@ -1,9 +1,13 @@
+/**
+ *
+ * @param {array<number>} arr
+ * @returns {array<number>}
+ */
 
 const quickSort = (arr) => {
   if (arr.length < 2) {
     return arr
   }
-
 
   const pivotPosition = Math.floor(Math.random() * arr.length)
   const pivot = arr[pivotPosition]

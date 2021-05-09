@@ -1,4 +1,8 @@
-const arr = [2, -33, 32, -223, 122, 1, 2, 4]
+/**
+ *
+ * @param {array<number>} arr
+ * @returns {array<number>}
+ */
 
 const bubbleSort = (arr) => {
   for (let i = arr.length; i > 0; i--) {
@@ -12,5 +16,7 @@ const bubbleSort = (arr) => {
   }
   return arr
 }
+
+const arr = [2, -33, 32, -223, 122, 1, 2, 4]
 
 console.log(bubbleSort(arr)) // [ -223, -33, 1, 2, 2, 4, 32, 122 ]
