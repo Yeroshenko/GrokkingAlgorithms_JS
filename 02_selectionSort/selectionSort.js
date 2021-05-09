@@ -39,3 +39,4 @@ const arr = [2, -33, 32, -223, 122, 1, 4, -22, 334, 211, -4]
 
 console.log(selectionSort(arr)) // [-223, -33, -22, -4, 1, 2, 4, 32, 122, 211, 334]
 
+console.log(findSmallest(arr))
